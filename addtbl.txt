@@ -1,0 +1,24 @@
+CREATE TABLE [dbo].[Register_tbl](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](50) NULL,
+	[Mail] [varchar](50) NULL,
+	[Mobile] [varchar](50) NULL,
+	[Address] [varchar](50) NULL,
+	[UserName] [varchar](50) NULL,
+	[Password] [varchar](50) NULL,
+ CONSTRAINT [PK_Register_tbl] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
+SET IDENTITY_INSERT [dbo].[Register_tbl] ON 
+
+GO
+INSERT [dbo].[Register_tbl] ([id], [Name], [Mail], [Mobile], [Address], [UserName], [Password]) VALUES (1, N'KEERTHI', N'ananthi@gmail.com', N'6598745632', N'coimbatore', N'KEERTHI', N'123')
+GO
+SET IDENTITY_INSERT [dbo].[Register_tbl] OFF
+GO
