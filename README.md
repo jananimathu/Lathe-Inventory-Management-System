@@ -1,0 +1,2 @@
+# Lathe-Inventory-Management-System
+ The  main  objective  of  this  project  to  develop  a  web  application ,to monitor the sales entries in the management.   The purpose of the system is to provide better convenience in manipulation of data, and in managing the task efficiently.  This System is a unified software program divided into several modules that roughly approximate the old standalone systems. 
